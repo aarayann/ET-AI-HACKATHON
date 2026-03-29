@@ -1,13 +1,3 @@
-# Finshala
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- FINSHALA — README.md                                          -->
-<!-- Economic Times GenAI Hackathon 2026 · Finance & Fintech Track -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<p align="center">
-  <img src="docs/assets/finshala-banner.png" alt="Finshala Banner" width="100%" />
-</p>
-
 <h1 align="center">Finshala</h1>
 
 <p align="center">
@@ -17,7 +7,6 @@
 
 <p align="center">
   <a href="#-demo-video"><img src="https://img.shields.io/badge/▶_Demo_Video-Watch_Now-8B6F47?style=for-the-badge" alt="Demo Video" /></a>
-  <a href="#-quick-start"><img src="https://img.shields.io/badge/🚀_Quick_Start-Setup_Guide-10b981?style=for-the-badge" alt="Quick Start" /></a>
   <a href="#-ai-shala--agentic-intelligence"><img src="https://img.shields.io/badge/🧠_AI_Shala-Explore-6366f1?style=for-the-badge" alt="AI Shala" /></a>
 </p>
 
@@ -31,7 +20,6 @@
   <img src="https://img.shields.io/badge/Supabase-Auth-3FCF8E?style=flat-square&logo=supabase" alt="Supabase" />
   <img src="https://img.shields.io/badge/Ollama-llama3.1-FF6F00?style=flat-square" alt="Ollama" />
   <img src="https://img.shields.io/badge/HuggingFace-Free_Inference-FFD21E?style=flat-square&logo=huggingface" alt="HuggingFace" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License" />
 </p>
 
 ---
@@ -60,16 +48,16 @@
 
 ---
 
-## 🎯 The Problem We Solve
+## ↦ The Problem We Solve
 
 India has **150+ million retail investors**, and this number is growing every day. But most of these people face a big problem:
 
 > **Financial advice is either too expensive for normal people, or too generic to be useful.**
 
-- A personal financial advisor in India charges ₹15,000–₹50,000 per year — too costly for a young professional earning ₹6–12 LPA.
-- Free online tools give the same cookie-cutter advice to everyone: *"Invest in ELSS"*, *"Start a SIP"* — without knowing your actual salary, loans, tax situation, or goals.
-- Most Indians don't know if they are using the right tax regime. The difference between Old and New regime can be ₹30,000–₹80,000 per year — real money that gets lost.
-- Nobody explains **why** their financial health is good or bad. You get a number, but not the reasoning behind it.
+- A personal financial advisor in India charges ₹15,000–₹50,000 per year too costly for a young professional earning ₹6–12 LPA.
+- Free online tools give the same advice to everyone: *"Invest in ELSS"*, *"Start a SIP"* — without knowing your actual salary, loans, tax situation, or goals.
+- Most Indians don't know if they are using the right tax regime. The difference between Old and New regime can be ₹30,000–₹80,000 per year real money that gets lost.
+- Nobody explains **why** their financial health is good or bad you get a number but not the reasoning behind it.
 
 ### The Information Gap in Numbers
 
@@ -81,28 +69,28 @@ India has **150+ million retail investors**, and this number is growing every da
 | Average cost of a certified financial planner | ₹25,000/year |
 | People who abandon financial apps due to complexity | 65% |
 
-**Finshala bridges this gap.** We use Generative AI to give every Indian the kind of personalized, data-driven financial guidance that was previously available only to the wealthy.
+**Finshala bridges this gap.** We use Generative AI to give every Indian the kind of personalized data driven financial guidance that was previously available only to the wealthy.
 
 ---
 
-## 💡 What Finshala Does
+## ↦ What Finshala Does
 
-Finshala is a full-stack financial wellness platform that combines **deterministic computation engines** (for accurate math) with **Generative AI agents** (for personalized advice and explanations). No hallucinated numbers — the LLMs explain, they never calculate.
+Finshala is a financial wellness platform that combines **deterministic computation engines** (for accurate math) with **Generative AI agents** (for personalized advice and explanations). No hallucinated numbers the LLMs explain they never calculate.
 
 ### In Simple Words
 
 You enter your financial details once. Finshala then:
 
-1. **Scans your tax situation** → Tells you which regime saves more money and exactly where you're missing deductions
-2. **Checks your financial health** → Gives you a score out of 900 across 6 dimensions (like a CIBIL score, but for overall financial fitness)
+1. **Scans your tax situation** → Tells you which regime saves more money and exactly where you are missing deductions
+2. **Checks your financial health** → Gives you a score out of 900 across 6 dimensions
 3. **Plans your retirement** → Shows you exactly when you can retire early (FIRE), how much SIP you need, and what happens year by year
-4. **Explains everything with AI** → Not just numbers, but *why* your score is what it is, using SHAP-style explainable AI
-5. **Stress-tests your money** → Runs 5,000 Monte Carlo simulations against AI-generated economic crisis scenarios
-6. **Generates PDF reports** → Professional, downloadable reports for Tax, Health Score, and FIRE planning
+4. **Explains everything with AI** → Not just numbers but *why* your score is what it is, using SHAP style explainable AI
+5. **Stress-tests your money** → Runs 5,000 Monte Carlo simulations against AI generated economic crisis scenarios
+6. **Generates PDF reports** → Professional downloadable reports for Tax, Health Score, and FIRE planning
 
 ---
 
-## 🎬 Demo Video
+## ↦ Demo Video
 
 <p align="center">
   <a href="https://youtu.be/YOUR_VIDEO_ID">
@@ -130,9 +118,9 @@ You enter your financial details once. Finshala then:
 
 ## 🔥 Core Features
 
-### 1. 🏔️ FIRE Path Planner — *Journey to Financial Independence*
+### 1. FIRE Path Planner — *Journey to Financial Independence*
 
-The FIRE (Financial Independence, Retire Early) engine calculates three retirement scenarios based on your real data:
+The FIRE (Financial Independence Retire Early) engine calculates three retirement scenarios based on your real data:
 
 | Variant | What It Means | Example Target |
 |---------|--------------|----------------|
@@ -141,44 +129,44 @@ The FIRE (Financial Independence, Retire Early) engine calculates three retireme
 | 👑 **Fat FIRE** | Premium living — international travel, luxury | ₹7.2 Cr by age 50 |
 
 **What makes it special:**
-- Month-by-month simulation up to age 85
-- Age-based asset allocation glide path (more equity when young, more debt when older)
-- SIP breakdown by fund type (flexi-cap, mid-cap, ELSS, debt, gold ETF)
-- Automatic milestone tracking (25% done → Coast FIRE → 50% → FIRE achieved!)
-- Built-in insurance gap analysis (life + health + critical illness)
+- Month by month simulation up to age 85
+- Age based asset allocation glide path (more equity when young more debt when older)
+- SIP breakdown by fund type (flexi cap, mid cap, ELSS, debt, gold ETF)
+- Automatic milestone tracking (25% done → Coast FIRE → 50% → FIRE achieved)
+- Built in insurance gap analysis (life + health + critical illness)
 - Tax regime comparison embedded in the FIRE plan
 - Emergency fund strategy with specific parking recommendations
 
-### 2. 💊 Money Health Score — *Your 6-Dimension Financial Pulse*
+### 2. Money Health Score — *Your 6-Dimension Financial Pulse*
 
-A comprehensive score from 0 to 900 (like a CIBIL score, but for your complete financial wellness):
+A comprehensive score from 0 to 900:
 
 | Dimension | Weight | What It Measures |
 |-----------|--------|-----------------|
-| 🛡️ Emergency Preparedness | 20% | Months of expenses covered by liquid savings |
-| 🏥 Insurance Coverage | 20% | Life, health, and critical illness adequacy |
-| 📊 Investment Diversification | 15% | Asset classes, concentration risk, SIP discipline |
-| 💳 Debt Health | 15% | EMI-to-income ratio, debt quality (secured vs unsecured) |
-| 🏛️ Tax Efficiency | 15% | 80C/80D/NPS utilization, regime optimization |
-| 🏖️ Retirement Readiness | 15% | Corpus progress, SIP adequacy, years to goal |
+| Emergency Preparedness | 20% | Months of expenses covered by liquid savings |
+| Insurance Coverage | 20% | Life, health, and critical illness adequacy |
+| Investment Diversification | 15% | Asset classes, concentration risk, SIP discipline |
+| Debt Health | 15% | EMI-to-income ratio, debt quality (secured vs unsecured) |
+| Tax Efficiency | 15% | 80C/80D/NPS utilization, regime optimization |
+| Retirement Readiness | 15% | Corpus progress, SIP adequacy, years to goal |
 
 Each dimension gives you:
-- A sub-score with detailed breakdown
-- Specific findings (✅ positive, ⚠️ warning, 🚨 critical)
+- A sub score with detailed breakdown
+- Specific findings (positive, warning, critical)
 - Prioritized, actionable recommendations with estimated impact
 
-### 3. 🧮 Tax Wizard — *AI-Driven Regime Optimization*
+### 3. Tax Wizard — *AI-Driven Regime Optimization*
 
 - **Upload your Form 16 PDF** → Automatically extracts salary, deductions, TDS (handles password-protected PDFs too)
 - **Old vs New Regime comparison** → Shows exact tax under both, recommends the better one
 - **Missed deduction finder** → Scans 80C, 80CCD(1B), 80D, Section 24(b) and tells you exactly how much more to invest
-- **Slab-by-slab breakdown** → See how tax is calculated at each income slab
+- **Slab by slab breakdown** → See how tax is calculated at each income slab
 - **AI explanation** → LLM explains in plain language *why* one regime is better for your specific situation
 
-### 4. 🤖 AI Chatbot — *Your Personal Finance Assistant*
+### 4. AI Chatbot — *Your Personal Finance Assistant*
 
 A conversational AI assistant powered by **Ollama (Llama 3.1 8B)** for local inference:
-- Answers tax questions in context of Indian law (FY 2024-25)
+- Answers tax questions in context of Indian law
 - Gives investment advice using Indian products (SIP, ELSS, PPF, NPS)
 - Explains financial concepts in simple Hindi/English
 - Keeps conversation history for follow-up questions
@@ -190,13 +178,12 @@ Professional, branded reports generated on the server using Python ReportLab:
 - **FIRE Report** — 11 sections covering everything from profile snapshot to 20-year roadmap
 - **Tax Report** — Regime comparison, deduction utilization, missed savings
 - **Health Score Report** — 6-dimension breakdown, findings, prioritized action plan
-- All reports include copper-themed branding, formatted tables, and page numbers
 
 ---
 
-## 🧠 AI Shala — Agentic Intelligence
+## AI Shala — Agentic Intelligence
 
-**AI Shala** is the heart of Finshala's GenAI innovation. It is a **multi-agent orchestration system** where 5 specialized AI agents collaborate in a sequential pipeline to analyze your finances from every angle.
+**AI Shala** is the heart of Finshala's GenAI innovation. It is a **multi agent orchestration system** where 5 specialized AI agents collaborate in a sequential pipeline to analyze your finances from every angle.
 
 ### How the Agent Pipeline Works
 
@@ -204,7 +191,7 @@ Professional, branded reports generated on the server using Python ReportLab:
 User Profile → [Tax Agent] → [XAI Agent] → [FIRE Agent] → [Stress Agent] → [GenUI Agent] → Dynamic Dashboard
 ```
 
-Each agent adds its results to a shared state. The pipeline runs end-to-end and produces a dynamic dashboard that is different for every user.
+Each agent adds its results to a shared state. The pipeline runs end to end and produces a dynamic dashboard that is different for every user.
 
 ### The Five Agents
 
@@ -214,17 +201,17 @@ Each agent adds its results to a shared state. The pipeline runs end-to-end and 
 | 2 | 🔍 **XAI Agent** | Runs Health Score engine, decomposes into SHAP-style waterfall | Deterministic + LLM narrative |
 | 3 | 🔥 **FIRE Agent** | Generates Lean/Regular/Fat FIRE projections | Pure deterministic (Python) |
 | 4 | 🌊 **Stress Agent** | LLM generates 3 economic crisis scenarios, Monte Carlo simulates 5,000 runs each | LLM scenarios + Monte Carlo math |
-| 5 | 🎨 **GenUI Agent** | Reads all results, assembles a JSON UI schema | Conditional logic |
+| 5 | 🎨 **GenUI Agent** | Reads all results and assembles them
 
 ### Key Design Principle
 
 > **LLMs explain. They NEVER calculate.**
 >
-> All financial math (tax slabs, compound interest, SIP projections, Monte Carlo simulations) runs through deterministic Python engines. The LLMs only generate human-readable narratives and scenario descriptions. This prevents hallucinated numbers — a critical requirement for financial applications.
+> All financial math (tax slabs, compound interest, SIP projections, Monte Carlo simulations) runs through deterministic Python engines. The LLMs only generate human-readable narratives and scenario descriptions. This prevents hallucinated numbers a critical requirement for financial applications.
 
 ### Explainable AI (XAI) — SHAP-Style Decomposition
 
-The XAI Agent doesn't just give you a health score — it shows you exactly **which dimensions pushed your score up or down**, similar to SHAP (SHapley Additive exPlanations) values in ML:
+The XAI Agent does not just give you a health score it shows you exactly **which dimensions pushed your score up or down** similar to SHAP (SHapley Additive exPlanations) values in ML:
 
 ```
 Base Score (Population Average): 480/900
@@ -255,7 +242,7 @@ For each scenario, you get:
 
 ### Generative UI (GenUI)
 
-The GenUI Agent reads all analysis results and dynamically builds a component schema. The frontend `GenUIRenderer` component reads this JSON and renders a personalized dashboard — no hard-coded layouts. Different users see different dashboards based on their financial situation.
+The GenUI Agent reads all analysis results and dynamically builds a component schema.
 
 Components generated include:
 - `HealthScoreGauge` — Always shown
@@ -277,15 +264,15 @@ graph TB
     User["👤 Indian Retail Investor"]
     
     subgraph Finshala["Finshala Platform"]
-        Frontend["⚛️ React SPA<br/>Vite + TypeScript"]
-        NodeAPI["🟢 Node.js API<br/>Express Gateway"]
-        PythonAPI["🐍 Python API<br/>Flask + AI Engines"]
+        Frontend[" React SPA<br/>Vite + TypeScript"]
+        NodeAPI[" Node.js API<br/>Express Gateway"]
+        PythonAPI[" Python API<br/>Flask + AI Engines"]
     end
     
     subgraph External["External Services"]
-        Supabase["🔐 Supabase<br/>Auth + Database"]
+        Supabase[" Supabase<br/>Auth + Database"]
         HuggingFace["🤗 HuggingFace<br/>Free Inference API"]
-        Ollama["🦙 Ollama<br/>Local LLM (llama3.1:8b)"]
+        Ollama[" Ollama<br/>Local LLM (llama3.1:8b)"]
     end
     
     User -->|"Browser"| Frontend
@@ -307,10 +294,10 @@ graph TB
 ```mermaid
 graph LR
     subgraph Frontend["Frontend (React + Vite)"]
-        Pages["📄 Pages<br/>Index, FIRE, Health,<br/>Tax Wizard, AI Shala"]
-        Components["🧩 Components<br/>HeroPanels, Navbar,<br/>GenUIRenderer, Chatbot"]
-        Services["⚙️ Services<br/>fire-engine.ts<br/>health-score-engine.ts<br/>tax-wizard-engine.ts<br/>llm-service.ts"]
-        Hooks["🪝 Hooks<br/>useAuth, useUserProfile,<br/>useCountUp"]
+        Pages[" Pages<br/>Index, FIRE, Health,<br/>Tax Wizard, AI Shala"]
+        Components[" Components<br/>HeroPanels, Navbar,<br/>GenUIRenderer, Chatbot"]
+        Services[" Services<br/>fire-engine.ts<br/>health-score-engine.ts<br/>tax-wizard-engine.ts<br/>llm-service.ts"]
+        Hooks[" Hooks<br/>useAuth, useUserProfile,<br/>useCountUp"]
     end
     
     subgraph NodeBackend["Node.js Backend (Express)"]
@@ -327,12 +314,12 @@ graph LR
         Chat["POST /api/chat<br/>Ollama Chatbot"]
         
         subgraph AIShala["AI Shala Module"]
-            Orchestrator["🎯 Orchestrator"]
-            TaxAgent["🏛️ Tax Agent"]
-            XAIAgent["🔍 XAI Agent"]
-            StressAgent["🌊 Stress Agent"]
-            GenUIAgent["🎨 GenUI Agent"]
-            LLMClient["🤗 LLM Client<br/>(HuggingFace Router)"]
+            Orchestrator[" Orchestrator"]
+            TaxAgent[" Tax Agent"]
+            XAIAgent[" XAI Agent"]
+            StressAgent[" Stress Agent"]
+            GenUIAgent[" GenUI Agent"]
+            LLMClient[" LLM Client<br/>(HuggingFace Router)"]
         end
     end
     
@@ -449,8 +436,7 @@ sequenceDiagram
 | **HuggingFace Router v1** | Cloud LLM inference for AI Shala agents |
 | **Meta Llama 3.1 8B** | Primary model for agent narratives |
 | **Microsoft Phi-3.5 Mini** | Fast fallback model |
-| **Mistral 7B v0.3** | Backup fallback model |
-| **Qwen 2.5 72B / Mixtral 8x22B** | Frontend LLM service for tax Q&A and reports |
+
 
 ### Infrastructure
 
@@ -463,117 +449,6 @@ sequenceDiagram
 
 ---
 
-## 🚀 Quick Start
-
-### What You Need
-
-| Requirement | Version | Why |
-|------------|---------|-----|
-| **Node.js** | 20.x or higher | Runs frontend and Node.js backend |
-| **Python** | 3.11 or higher | Runs Flask API and AI engines |
-| **npm** | 10.x or higher | Package management |
-| **Git** | Any recent version | Clone the repository |
-| **Ollama** *(optional)* | Latest | For local AI chatbot (llama3.1:8b) |
-
-### Step 1 — Clone the Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/finshala.git
-cd finshala
-```
-
-### Step 2 — Set Up Environment Variables
-
-**Frontend** (`frontend/.env`):
-```bash
-cp frontend/.env.example frontend/.env
-```
-Then edit `frontend/.env` and fill in your keys:
-```env
-VITE_SUPABASE_URL="https://YOUR_PROJECT_ID.supabase.co"
-VITE_SUPABASE_ANON_KEY="your.anon.key.here"
-VITE_HF_API_KEY="hf_your_huggingface_api_key_here"
-```
-
-**Backend** (`backend/.env`):
-```bash
-cp backend/.env.example backend/.env
-```
-Then edit `backend/.env`:
-```env
-HF_API_KEY="hf_your_huggingface_api_key_here"
-```
-
-> **Where to get API keys:**
-> - **Supabase**: Sign up at [supabase.com](https://supabase.com), create a project, copy the URL and anon key from Settings → API
-> - **HuggingFace**: Sign up at [huggingface.co](https://huggingface.co), go to Settings → Access Tokens, create a free token
-> - **Note**: Finshala works even without API keys — it falls back to intelligent mock responses
-
-### Step 3 — Install and Start Everything
-
-Open **three separate terminal windows**:
-
-**Terminal 1 — Frontend (React)**
-```bash
-cd frontend
-npm install
-npm run dev
-```
-→ Opens at `http://localhost:5173`
-
-**Terminal 2 — Node.js Backend**
-```bash
-cd backend
-npm install
-npm run dev
-```
-→ Runs at `http://localhost:3000`
-
-**Terminal 3 — Python API**
-```bash
-cd backend/python_api
-python -m venv .venv
-
-# Windows:
-.venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
-
-pip install -r requirements.txt
-python app.py
-```
-→ Runs at `http://localhost:5000`
-
-### Step 4 — (Optional) Start Ollama for AI Chatbot
-
-```bash
-ollama pull llama3.1:8b
-ollama run llama3.1:8b
-```
-→ The chatbot on Finshala will now use local AI inference
-
-### Step 5 — Open the App
-
-Visit **http://localhost:5173** in your browser. That's it! 🎉
-
-### One-Command Health Check
-
-After everything is running, verify all systems work:
-
-```bash
-# Check Node.js backend
-curl http://localhost:3000/api/health
-
-# Check Python API
-curl http://localhost:5000/api/health
-
-# Check AI Shala subsystem
-curl http://localhost:5000/api/v2/ai-shala/health
-```
-
-All three should return `{"status": "ok"}`.
-
----
 
 ## 📁 Project Structure
 
@@ -671,64 +546,6 @@ finshala/
 └── README.md                       # You are here
 ```
 
----
-
-## 📡 API Reference
-
-### Python API (Port 5000)
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/api/health` | Health check |
-| `POST` | `/api/parse-form16` | Upload and parse Form 16 PDF (multipart/form-data) |
-| `POST` | `/api/calculate-health-score` | Calculate 6-dimension financial health score |
-| `POST` | `/api/calculate-fire-plan` | Generate Lean/Regular/Fat FIRE projections |
-| `POST` | `/api/generate-report/:type` | Generate PDF report (`fire`, `tax`, or `health`) |
-| `POST` | `/api/chat` | AI chatbot (Ollama llama3.1:8b) |
-| `GET` | `/api/v2/ai-shala/health` | AI Shala subsystem health check |
-| `POST` | `/api/v2/ai-shala/analyze` | **Full 5-agent agentic pipeline** |
-| `POST` | `/api/v2/ai-shala/explain-score` | Standalone XAI health score explanation |
-| `POST` | `/api/v2/ai-shala/stress-test` | Standalone Monte Carlo stress testing |
-
-### Node.js API (Port 3000)
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/api/health` | Health check |
-| `POST` | `/api/llm/proxy` | Secure proxy to HuggingFace (hides API key from frontend) |
-
-### Example: Run the Full AI Pipeline
-
-```bash
-curl -X POST http://localhost:5000/api/v2/ai-shala/analyze \
-  -H "Content-Type: application/json" \
-  -d '{
-    "gross_annual_income": 1800000,
-    "monthly_expenses": 45000,
-    "dob": "1995-06-15",
-    "emergency_fund": 100000,
-    "mutual_fund_value": 300000,
-    "stock_value": 50000,
-    "savings_fd_balance": 200000,
-    "monthly_sip": 15000,
-    "tax_80c_investments": 110000,
-    "tax_80d_medical": 12000,
-    "current_tax_regime": "new",
-    "risk_profile": "moderate"
-  }'
-```
-
-**Response includes:**
-- `ui_schema` — Dynamic component layout for the frontend
-- `insights.health_score` — Overall score out of 900
-- `insights.shap_explanation` — SHAP-style waterfall data
-- `insights.tax_optimization` — Regime recommendation + missed deductions
-- `insights.stress_test` — 3 scenarios with survival probabilities
-- `insights.fire_summary` — FIRE numbers for all 3 variants
-- `pipeline_log` — Per-agent status and latency
-- `total_latency_ms` — End-to-end pipeline time
-
----
 
 ## 🤖 GenAI Integration Deep Dive
 
@@ -760,17 +577,11 @@ We use **multiple models** with automatic fallback chains — so the app keeps w
 ```
 Primary:  Meta Llama 3.1 8B Instruct (via Novita)
 Fast:     Microsoft Phi-3.5 Mini Instruct (via Novita)
-Backup:   Mistral 7B Instruct v0.3 (via Novita)
-Offline:  Intelligent mock responses (hardcoded)
 ```
 
 **Frontend (LLM Service):**
 ```
-Tax Math:   Qwen 2.5 72B Instruct → Qwen 2.5 7B → Mixtral 8x22B
-Advice:     Mixtral 8x22B → Qwen 72B → Qwen 7B
 Parser:     Qwen 2.5 Coder 7B → Qwen 72B
-Reports:    Qwen3 235B → Qwen 72B → Mixtral 8x22B
-Planner:    Cohere Command-R+ → Mixtral 8x22B → Qwen 72B
 Chatbot:    Ollama llama3.1:8b (local) → HF fallback
 ```
 
@@ -834,38 +645,6 @@ If 10,000 users complete onboarding:
 
 ---
 
-## 📈 Scalability & Cost Analysis
-
-### Current Architecture — Ready for Scale
-
-| Component | Current Setup | Scale-Ready Path |
-|-----------|--------------|-----------------|
-| Frontend | Vite dev server | Deploy to Vercel/Netlify (auto-scaling CDN) |
-| Node.js API | Single Express instance | Dockerize → deploy to AWS ECS / Railway |
-| Python API | Single Flask instance | Gunicorn + Docker → Kubernetes with HPA |
-| Database | Supabase (managed Postgres) | Already scalable — handles 10K+ concurrent users |
-| LLM Inference | HuggingFace Free Tier | Upgrade to HF Pro ($9/mo) or deploy quantized models on GPU |
-
-### LLM Cost Projection
-
-| Scale | Monthly LLM API Calls | Estimated Cost | Strategy |
-|-------|----------------------|----------------|----------|
-| **Prototype** (now) | ~1,000 | ₹0 (HF free tier) | Free inference + Ollama local |
-| **1K users/month** | ~15,000 | ~₹750 | HF Pro ($9/mo) |
-| **10K users/month** | ~150,000 | ~₹4,500 | Self-hosted Llama 3.1 on a single A10G GPU |
-| **100K users/month** | ~1.5M | ~₹25,000 | Quantized model (GGUF 4-bit) on 2× A10G |
-
-> **Key insight:** The most expensive operations (Monte Carlo simulations, tax calculations, health scoring) are **pure Python math** — they cost zero LLM tokens. Only narrative generation and scenario creation use LLM calls.
-
-### Token Optimization Strategies Used
-
-1. **Short system prompts** — Average 50 tokens, not 500
-2. **Output token limits** — Each agent caps at 250–300 tokens
-3. **Mock fallback** — App works fully even with zero API calls
-4. **Task-specific models** — Use small models (Phi-3.5, 3.8B params) for simple tasks, large models only when needed
-5. **No streaming** — Single request-response to minimize connection overhead
-
----
 
 ## 📸 Screenshots
 
@@ -921,43 +700,15 @@ curl http://localhost:5000/api/v2/ai-shala/health  # AI Shala
 
 ---
 
-## 🗺️ Roadmap
-
-### Phase 1 — Hackathon MVP ✅ (Current)
-- [x] FIRE Planner (Lean / Regular / Fat)
-- [x] Money Health Score (6 dimensions)
-- [x] Tax Wizard with Form 16 parsing
-- [x] AI Shala — 5-agent agentic pipeline
-- [x] Explainable AI (SHAP-style waterfall)
-- [x] Monte Carlo stress testing
-- [x] Generative UI (dynamic dashboards)
-- [x] PDF report generation
-- [x] AI chatbot (Ollama + HF fallback)
-- [x] Supabase authentication
-
-### Phase 2 — Post-Hackathon (Q2 2026)
-- [ ] Mobile-responsive redesign (PWA)
-- [ ] Hindi and regional language support
-- [ ] Real mutual fund data integration (AMFI NAV API)
-- [ ] Goal-based investment tracking
-- [ ] Budget tracker with UPI data import
-
-### Phase 3 — Product (Q3–Q4 2026)
-- [ ] WhatsApp chatbot (for Tier 2/3 city users)
-- [ ] SEBI-registered advisory partnerships
-- [ ] B2B API for employers (corporate wellness)
-- [ ] Open-source community edition
-
----
 
 ## 👥 Team
 
 <!-- Add your team details here -->
 
-| Name | Role | LinkedIn |
-|------|------|----------|
-| *Your Name* | Full-Stack Developer & AI Engineer | [LinkedIn](#) |
-| *Team Member 2* | *Role* | [LinkedIn](#) |
+| Name | LinkedIn |
+|----- | -------|
+| Bhavya Sodhi   | [Profile](https://www.linkedin.com/in/bhavya-sodhi-7a60372bb/) |
+
 
 ---
 
@@ -973,27 +724,6 @@ curl http://localhost:5000/api/v2/ai-shala/health  # AI Shala
 
 ---
 
-## 📜 License
-
-This project is open-source under the [MIT License](LICENSE).
-
-```
-MIT License
-
-Copyright (c) 2026 Finshala
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
----
 
 <p align="center">
   <b>Built with ❤️ for India's financial future</b><br />

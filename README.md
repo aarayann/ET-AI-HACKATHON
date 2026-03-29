@@ -33,19 +33,15 @@
 - [AI Shala — Agentic Intelligence](#-ai-shala--agentic-intelligence)
 - [System Architecture](#-system-architecture)
 - [Tech Stack](#-tech-stack)
-- [Quick Start](#-quick-start)
 - [Project Structure](#-project-structure)
 - [API Reference](#-api-reference)
 - [GenAI Integration Deep Dive](#-genai-integration-deep-dive)
 - [Business Impact & ROI](#-business-impact--roi)
 - [Scalability & Cost Analysis](#-scalability--cost-analysis)
 - [Screenshots](#-screenshots)
-- [Testing](#-testing)
 - [Roadmap](#-roadmap)
 - [Team](#-team)
 - [Acknowledgments](#-acknowledgments)
-- [License](#-license)
-
 ---
 
 ## ↦ The Problem We Solve

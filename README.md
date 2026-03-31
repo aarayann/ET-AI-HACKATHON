@@ -89,7 +89,7 @@ You enter your financial details once. Finshala then:
 ## ↦ Demo Video
 
 <p align="center">
-  <a href="[https://youtu.be/YOUR_VIDEO_ID](https://youtu.be/EZbtbZWgScs)">
+  <a href="[[https://youtu.be/EZbtbZWgScs]]">
     <img src="docs/assets/demo-thumbnail.png" alt="Finshala Demo Video" width="80%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.12);" />
   </a>
 </p>

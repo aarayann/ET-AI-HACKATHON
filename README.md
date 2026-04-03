@@ -68,7 +68,7 @@ Base score (population avg):  480 / 900
 ```
 
 ### 💬 AI Chatbot
-Conversational assistant for Indian tax and investment questions. Runs Ollama locally (`llama3.1:8b`) with automatic fallback to HuggingFace inference if Ollama isn't available.
+Conversational assistant for Indian tax and investment questions, powered by Meta Llama 3.1 8B via the HuggingFace Inference API — the same model used across all AI Shala agents.
 
 ### 📄 PDF Reports
 Server-generated branded reports via ReportLab — FIRE roadmap, Tax comparison, and Health Score breakdown. Download and share offline.
@@ -82,7 +82,7 @@ Server-generated branded reports via ReportLab — FIRE roadmap, Tax comparison,
 | Frontend | React 18, TypeScript, Vite 5, Tailwind CSS, shadcn/ui, Framer Motion, Three.js, Recharts |
 | Backend (Node.js) | Express 4 — LLM proxy gateway |
 | Backend (Python) | Flask 3.1, pdfplumber, pikepdf, ReportLab, NumPy, httpx |
-| AI / LLM | Ollama (llama3.1:8b), HuggingFace Inference API, Meta Llama 3.1 8B, Phi-3.5 Mini |
+| AI / LLM | HuggingFace Inference API, Meta Llama 3.1 8B, Microsoft Phi-3.5 Mini |
 | Auth & DB | Supabase |
 
 ---
@@ -115,7 +115,7 @@ finshala/
 
 ## Running Locally
 
-**Prerequisites:** Node.js 20+, Python 3.11+, and optionally [Ollama](https://ollama.ai)
+**Prerequisites:** Node.js 20+, Python 3.11+
 
 ```bash
 # Clone
@@ -130,9 +130,6 @@ cd ../backend && npm install && node server.js
 
 # Python backend
 cd python_api && pip install -r requirements.txt && python app.py
-
-# (Optional) Ollama chatbot
-ollama pull llama3.1:8b && ollama serve
 ```
 
 Copy `.env.example` to `.env` in `backend/` and fill in your `HUGGINGFACE_API_KEY` and Supabase credentials.
